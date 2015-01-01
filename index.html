@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Free and For Sale Notifications </title>
+		<link rel="stylesheet" type="text/css" href="fbTracker.css" media="screen" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+		<script src="loadFBData.js"></script>
+	</head>
+    <body>
+		<h1> Free and For Sale Notifications</h1>
+		<p> What are you looking for?</p>
+
+	    <div class="searchInfo">
+		    <input type="text" id="searchInput" name="Search">
+		    <button onClick="sendInfo()"> Go! </button>
+		    <button onClick="subscribe()" title="Click Subscribe to get notifications when there are new sales."> Subscribe </button>
+		</div>
+
+	    <table id="allResults"> </table>
+	</body>
+</html>
+
